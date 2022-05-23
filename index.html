@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-left">
+      <img class="logo" src="./images/logo.svg" alt="snap">
+      <nav>
+        <div class="dropdown">
+          <div class="dropdown-button">
+            <button>Features</button>
+            <img src="./images/icon-arrow-down.svg" alt="">
+          </div>
+          <div class="dropdown-menu-features">
+            <a href=""><div class="dropdown-item"><img src="./images/icon-todo.svg" alt="">To do list</div></a>
+            <a href=""><div class="dropdown-item"><img src="./images/icon-calendar.svg" alt="">Calendar</div></a>
+            <a href=""><div class="dropdown-item"><img src="./images/icon-reminders.svg" alt="">Reminders</div></a>
+            <a href=""><div class="dropdown-item"><img src="./images/icon-planning.svg" alt="">Planning</div></a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <div class="dropdown-button">
+            <button>Company</button>
+            <img src="./images/icon-arrow-down.svg" alt="">
+          </div>
+          <div class="dropdown-menu-company">
+            <a href=""><div class="dropdown-item">History</div></a>
+            <a href=""><div class="dropdown-item">Our Team</div></a>
+            <a href=""><div class="dropdown-item">Blog</div></a>
+          </div>
+        </div>
+        <button>Careers</button>
+        <button>About</button>
+      </nav>
+    </div>
+    <div class="header-right">
+      <div class="login">
+        <button class="button-login">Login</button>
+        <button class="button-register">Register</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="left">
+      <h1> Make remote work </h1>
+
+      <h2> Get your team in sync, no matter your location. Streamline processes, 
+      create team rituals, and watch productivity soar. </h2>
+
+      <button class="button-learn-more"> Learn more </button>
+      <div class="logos">
+        <img src="./images/client-databiz.svg" alt="">
+        <img src="./images/client-audiophile.svg" alt="">
+        <img src="./images/client-meet.svg" alt="">
+        <img src="./images/client-maker.svg" alt="">
+      </div>
+    </div>
+    <div class="right">
+      <img class="img-hero" src="./images/image-hero-desktop.png" alt="">
+    </div>
+  </main>
+  </div>
+</body>
+</html>
