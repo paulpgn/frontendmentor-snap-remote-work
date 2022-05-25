@@ -11,10 +11,10 @@ function myFunctionCompany() {
     }
 }
 const hamburger = document.getElementById('hamburger');
-const nav = document.getElementById('nav');
+const navig = document.getElementById('nav');
 
 hamburger.addEventListener('click', () => {
-    nav.classList.toggle("show");
+    navig.classList.toggle("show");
 })
 
 window.onclick = function (event) {
@@ -28,5 +28,17 @@ window.onclick = function (event) {
             }
         }
     }
+    if (!event.path[1].matches('button.hamburger') && !navig.classList.contains('show')) {
+        if(navig.classList.contains('show')) {
+            navig.classList.remove('show');
+        }
+    }
+    
+    if (!event.path[1].matches('button.hamburger') && !event.path[0].matches('nav#nav.show') && navig.classList.contains('show')) {
+        if(navig.classList.contains('show')) {
+            navig.classList.remove('show');
+        }
+    }
+    
 }
 
