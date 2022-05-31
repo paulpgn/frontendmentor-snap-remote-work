@@ -22,11 +22,11 @@ header {
     margin-left: 2em;
     margin-right: 2em;
 }
-.header-left {
+.header-total {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 530px;
+    width: 100vw;
 }
 a {
     text-decoration: none;
@@ -36,19 +36,25 @@ a {
     cursor: pointer;
 }
 nav {
-    width: 378px;
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
-nav > button, .dropdown-button > button {
+.header-left > button, .dropdown-button > button {
     border: none;
     background-color: white;
     font-weight: 500;
     font-size: 14px;
     color: #686868;
     cursor: pointer;
+}
+.header-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
 }
 .hamburger {
     display: none;
@@ -59,6 +65,7 @@ nav > button, .dropdown-button > button {
 .cross {
     display: none;
 }
+
 .dropdown {
     position: relative;
 } 
@@ -241,8 +248,12 @@ h2 {
     }
     .cross {
         display: block;
+        position: relative;
+        right: -250px;
+        border: none;
+        background-color: white;
     }
-    .header-left {
+    .header-total {
         display: flex;
         flex-direction: row;
         justify-content: space-between;

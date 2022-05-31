@@ -16,41 +16,45 @@
 </head>
 <body>
   <header>
-    <div class="header-left">
+    <div class="header-total">
       <img class="logo" src="./images/logo.svg" alt="snap">
       <button class="hamburger" id="hamburger">
         <img src="./images/icon-menu.svg" alt="">
       </button>
 
       <nav id="nav">
-        <div class="dropdown" data-dropdown>
-          <button class="cross" id="cross">
-            <img src="./images/icon-close-menu.svg" alt="">
-          </button>
-          <div onclick="myFunctionFeatures()" class="dropdown-button" data-dropdown-button>
-            <button>Features</button>
-            <img src="./images/icon-arrow-down.svg" alt="">
+
+        <div class="header-left">
+          <div class="dropdown" data-dropdown>
+            <button class="cross" id="cross">
+              <img src="./images/icon-close-menu.svg" alt="">
+            </button>
+            <div onclick="myFunctionFeatures()" class="dropdown-button" data-dropdown-button>
+              <button>Features</button>
+              <img src="./images/icon-arrow-down.svg" alt="">
+            </div>
+            <div class="dropdown-menu dropdown-menu-features">
+              <a href=""><div class="dropdown-item"><img src="./images/icon-todo.svg" alt="">To do list</div></a>
+              <a href=""><div class="dropdown-item"><img src="./images/icon-calendar.svg" alt="">Calendar</div></a>
+              <a href=""><div class="dropdown-item"><img src="./images/icon-reminders.svg" alt="">Reminders</div></a>
+              <a href=""><div class="dropdown-item"><img src="./images/icon-planning.svg" alt="">Planning</div></a>
+            </div>
           </div>
-          <div class="dropdown-menu dropdown-menu-features">
-            <a href=""><div class="dropdown-item"><img src="./images/icon-todo.svg" alt="">To do list</div></a>
-            <a href=""><div class="dropdown-item"><img src="./images/icon-calendar.svg" alt="">Calendar</div></a>
-            <a href=""><div class="dropdown-item"><img src="./images/icon-reminders.svg" alt="">Reminders</div></a>
-            <a href=""><div class="dropdown-item"><img src="./images/icon-planning.svg" alt="">Planning</div></a>
+          <div class="dropdown">
+            <div onclick="myFunctionCompany()" class="dropdown-button">
+              <button>Company</button>
+              <img src="./images/icon-arrow-down.svg" alt="">
+            </div>
+            <div class="dropdown-menu dropdown-menu-company">
+              <a href=""><div class="dropdown-item">History</div></a>
+              <a href=""><div class="dropdown-item">Our Team</div></a>
+              <a href=""><div class="dropdown-item">Blog</div></a>
+            </div>
           </div>
+          <button>Careers</button>
+          <button>About</button>
         </div>
-        <div class="dropdown">
-          <div onclick="myFunctionCompany()" class="dropdown-button">
-            <button>Company</button>
-            <img src="./images/icon-arrow-down.svg" alt="">
-          </div>
-          <div class="dropdown-menu dropdown-menu-company">
-            <a href=""><div class="dropdown-item">History</div></a>
-            <a href=""><div class="dropdown-item">Our Team</div></a>
-            <a href=""><div class="dropdown-item">Blog</div></a>
-          </div>
-        </div>
-        <button>Careers</button>
-        <button>About</button>
+        
         <div class="header-right">
           <div class="login">
             <button class="button-login">Login</button>
