@@ -29,8 +29,10 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Screenshot
+![Pc](https://user-images.githubusercontent.com/105318234/171825000-c09c4a18-b4e3-48b6-b680-ad5cfecc1651.png)
+![Phone](https://user-images.githubusercontent.com/105318234/171825011-64cd0a1d-25cf-4fb9-831d-9bd0b6cf9935.png)
 
-![](./screenshot.jpg)
+
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
